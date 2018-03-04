@@ -8,6 +8,15 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content": {
+    "scripts": ["content.js"]
+  },
+
   "permissions": [
     "activeTab",
     "storage",
